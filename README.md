@@ -17,3 +17,23 @@
 [![Open Source Love svg3](https://badges.frapsoft.com/os/v3/open-source.svg?v=103)](https://github.com/R0mb0/Oracolo-2.0)
 
 ![License](https://img.shields.io/badge/license-CC0%201.0-blue.svg?style=plastic)
+
+## Circuit
+
+<img height="60%" width="60%" src="https://github.com/R0mb0/Oracolo-2.0/blob/master/Hardware/Circuit.png" alt="Circuit" />
+
+## Colors meaning
+
+### Answer LEDs  
+
+🔵 Better not tell you now   
+🔴 No  
+🟡 Reply hazy, try again   
+🟢 Yes   
+⚪ It is certain    
+
+### Status RGB LED 
+
+🔴 On    
+🟡 Thinking   
+🟣 Ready  
