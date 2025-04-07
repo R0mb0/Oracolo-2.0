@@ -22,6 +22,10 @@
 
 <img height="60%" width="60%" src="https://github.com/R0mb0/Oracolo-2.0/blob/master/Hardware/Circuit.png" alt="Circuit" />
 
+## How to play 
+
+Press the button and wait for the oracle answer! ٩( ๑╹ ꇴ╹)۶ 
+
 ## Colors meaning
 
 ### Answer LEDs  
