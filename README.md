@@ -20,7 +20,7 @@
 
 ## Circuit
 
-<img height="60%" width="60%" src="https://github.com/R0mb0/Oracolo-2.0/blob/master/Hardware/Circuit.png" alt="Circuit" />
+<img height="80%" width="80%" src="https://github.com/R0mb0/Oracolo-2.0/blob/master/Hardware/Circuit.png" alt="Circuit" />
 
 ## How to play 
 
