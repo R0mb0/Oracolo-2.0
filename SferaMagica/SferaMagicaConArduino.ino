@@ -23,7 +23,6 @@ void setup() {
   pinMode(Pulsante, INPUT);   
   Serial.begin(115200);
   randomSeed(analogRead(A0)); //a seconda di quello che rileva l'antenna cambia la probabilità  
-  digitalWrite(LedRgbRosso,HIGH);   
 }  
   
 void loop() {  
@@ -32,14 +31,17 @@ void loop() {
   // controlla che l'input sia HIGH (pulsante premuto)  
   if (val == HIGH) {
       digitalWrite(LedRgbBlu, LOW); // spegne il led spia
-    sled=1;   // porta sled a 1
+      sled=1;   // porta sled a 1
+      digitalWrite(LedRgbRosso,HIGH);   
   }  
   else {  
     digitalWrite(LedRgbBlu, HIGH);   // accende il led spia  
   }
   if(sled==1){
+    delay(1000);
     Number = random(1, 5);       // genera un numero pseudo casuale tra 1 e 5
     Serial.println(Number);
+    digitalWrite(LedRgbRosso,LOW);  
     
     if (Number == 1) digitalWrite(LedBlu, HIGH);  // se randNumber è  1, LED blu ON altrimenti OFF
   else digitalWrite(LedBlu, LOW);
